@@ -1,7 +1,5 @@
-# flutter_estados
-
-A new Flutter project.
-
+# Flutter project
+Proyecto recopilando diversos mini proyectos, con un inicio de sesión y navegación por distintas pantallas, configuración de preferencias, y CRUD
 ## Getting Started
 
 This project is a starting point for a Flutter application.

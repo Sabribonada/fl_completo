@@ -21,7 +21,7 @@ class ThemeProvider extends ChangeNotifier {
   static final ThemeData lightTheme = ThemeData.light().copyWith(
       primaryColor: primaryLight,
       appBarTheme: const AppBarTheme(
-          color: Color.fromRGBO(231, 88, 131, 0.2), elevation: 0),
+          color: Color.fromRGBO(241, 69, 121, 0.589), elevation: 0),
       textButtonTheme: TextButtonThemeData(
           style: TextButton.styleFrom(foregroundColor: primaryLight)),
       floatingActionButtonTheme: const FloatingActionButtonThemeData(
@@ -32,6 +32,7 @@ class ThemeProvider extends ChangeNotifier {
             backgroundColor: primaryLight,
             elevation: 0),
       ),
+      scaffoldBackgroundColor: Colors.grey[300],
       inputDecorationTheme: const InputDecorationTheme(
         floatingLabelStyle: TextStyle(color: Colors.purple),
         enabledBorder: OutlineInputBorder(
